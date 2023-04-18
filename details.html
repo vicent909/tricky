@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="frontend/libraries/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="frontend/libraries/xzoom/xzoom.css">
+    <link rel="stylesheet" href="frontend/styles/main.css">
+</head> 
+<body> 
+      <!-- Navbar -->
+
+      <div class="container">
+        <nav class="row navbar navbar-expand-lg navbar-light bg-white">
+                <a href="#" class="navbar-brand">
+                    <img src="frontend/images/LOGO.png" alt="Logo Tricky">
+                </a>
+    
+                <button class="navbar-toggler navbar-toggler-right"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navb"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <div class="collapse navbar-collapse" id="navb">
+                    <ul class="navbar-nav ml-auto mr-3">
+                        <li class="nav-item mx-md-2 ">
+                            <a href="#" class="nav-link active">
+                                Home
+                            </a>
+                        </li>
+                        <li class="nav-item mx-md-2">
+                            <a href="#" class="nav-link">
+                                Produk
+                            </a>
+                        </li>
+                         <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">Service</a>
+                            <div class="dropdown-menu">
+                                <a href="#" class="dropdown-item">Link</a>
+                                <a href="#" class="dropdown-item">Link</a>
+                                <a href="#" class="dropdown-item">Link</a>
+                            </div>  
+                         </li>
+                        <li class="nav-item mx-md-2">
+                            <a href="#" class="nav-link">
+                                Testimonial
+                            </a>
+                        </li>
+                    </ul>
+
+                        <!-- Mobile Button -->
+                        <form action="" class="form-inline d-sm-block d-md-none">
+                            <button class="btn btn-login my-2 my-sm-0 px-4">
+                                Masuk
+                            </button>
+                        </form>
+
+                        <!-- Desktop Button -->
+                        <form action="" class="form-inline my-2 my-lg-0 d-none d-md-block">
+                            <button class="btn btn-login btn-navbar-right my-2 my-sm-0 px-4">
+                                Masuk
+                            </button>
+                        </form>
+                </div>
+        </nav>
+      </div>
+
+      <main>
+        <section class="section-details-header"></section>
+        <section class="section-details-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col p-0 ">
+                        <nav>
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item">
+                                    Produk
+                                </li>
+                                <li class="breadcrumb-item active">
+                                    Semua Produk
+                                </li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- card kiri -->
+                    <div class="col-lg-8 pl-lg-0">
+                        <div class="card card-details">
+                            <h1>Kaos Wanita Lengan 3/4</h1>
+                            <div class="gallery">
+                                <div class="xzoom-container">
+                                    <img src="frontend/images/hitam.jpeg" class="xzoom" id="xzoom-default" xoriginal="frontend/images/hitam.jpeg">
+                                </div>
+                                <div class="xzoom-thumbs">
+                                    <a href="frontend/images/hitam.jpeg">
+                                        <img src="frontend/images/hitam.jpeg" 
+                                            class="xzoom-gallery"
+                                            width="128"
+                                            xpreview="frontend/images/hitam.jpeg"
+                                        >
+                                    </a>
+                                    <a href="frontend/images/marun.jpeg">
+                                        <img src="frontend/images/marun.jpeg" 
+                                            class="xzoom-gallery"
+                                            width="128"
+                                            xpreview="frontend/images/marun.jpeg"
+                                        >
+                                    </a>
+                                    <a href="frontend/images/pink.jpg">
+                                        <img src="frontend/images/pink.jpg" 
+                                            class="xzoom-gallery"
+                                            width="128"
+                                            xpreview="frontend/images/pink.jpg"
+                                        >
+                                    </a>
+                                    <a href="frontend/images/biru.jpeg">
+                                        <img src="frontend/images/biru.jpeg" 
+                                            class="xzoom-gallery"
+                                            width="128"
+                                            xpreview="frontend/images/biru.jpeg"
+                                        >
+                                    </a>
+                                </div>
+                            </div>
+                            <h2>Detail Produk</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, dolorum animi? Fugit incidunt velit quidem odit quae iste perferendis, vero optio at placeat, molestias error neque dolores quo sunt rem.</p>
+                        </div>
+                    </div>
+
+                    <!-- card kanan -->
+                    <div class="col-lg-4">
+                        <div class="card card-details card-right ">
+                            
+                            <div class=" btn-container">
+                                <div class="container">
+                                    <div class="row " style="align-items: center;">
+                                        <h6 class="mr-2">Size : </h6>
+                                        <div class="btn btn-size mr-1 active">
+                                            M
+                                        </div>
+                                        <div class="btn btn-size mr-1">
+                                            L
+                                        </div>
+                                        <div class="btn btn-size mr-1">
+                                            XL
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="container">
+                                    <div class="row mt-2" style="align-items: center;">
+                                        <h6 class="mr-2">Warna : </h6>
+                                        <div class="btn btn-color btn-primary mr-1 active">
+                                            Hitam
+                                        </div>
+                                        <div class="btn btn-color btn-primary mr-1">
+                                            Putih
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="my-2"></div>
+                                <hr>
+                                <table>
+                                    <tr>
+                                        <th width="50%">
+                                            Prize
+                                        </th>
+                                        <td width="50%" class="text-right">
+                                            Rp. 154000
+                                        </td>
+                                    </tr>
+                                </table>
+                                <hr>
+                                <div class="row mt-2" >
+                                    <div class="container">
+                                        <div class="btn btn-keranjang" >
+                                            + Keranjang
+                                        </div>
+                                        <div class="btn btn-buynow">
+                                            Beli Sekarang
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+      </main>
+
+      <footer class="mt-5 border-top">
+        <div class="container pt-2 text-center">
+            <p>
+                 ©️ Tricky 2023
+            </p>
+        </div>
+      </footer>
+
+    <script src="frontend/libraries/jquery/jquery-3.6.4.min.js"></script>
+    <script src="frontend/libraries/bootstrap/js/bootstrap.js"></script>
+    <script src="frontend/libraries/xzoom/xzoom.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.xzoom, .xzoom-gallery').xzoom({
+                zoomWidth: 500,
+                title: false,
+                tint:'#333',
+                XXoffset: 15
+            })
+        })
+    </script>
+</body>
+</html>
